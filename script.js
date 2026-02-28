@@ -14,7 +14,8 @@ const corpError  = document.getElementById('corp-error');
 const screenLogin = document.getElementById('screen-login');
 const screenBat   = document.getElementById('screen-bat');
 
-const CRED = { id: 'bruce', pass: 'batman' };
+// No seu script.js, mude para:
+const CRED = { id: 'adm', pass: 'adm1234' };
 
 function doCorpLogin() {
   const id   = corpIdEl.value.trim().toLowerCase();
